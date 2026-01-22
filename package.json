@@ -13,5 +13,13 @@
   "devDependencies": {
     "@tailwindcss/cli": "^4.1.18",
     "tailwindcss": "^4.1.18"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cassoulaid/club-50plus-quebec.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Cassoulaid/club-50plus-quebec/issues"
+  },
+  "homepage": "https://github.com/Cassoulaid/club-50plus-quebec#readme"
 }

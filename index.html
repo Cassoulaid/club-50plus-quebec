@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Club 50+ Québec - Communauté et Entraide</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-      @keyframes float {
-        0%, 100% { transform: translateY(0px); }
-        50% { transform: translateY(-10px); }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Club 50+ Québec - Communauté et Entraide</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @keyframes float {
+
+      0%,
+      100% {
+        transform: translateY(0px);
       }
-      .float-animation {
-        animation: float 3s ease-in-out infinite;
+
+      50% {
+        transform: translateY(-10px);
       }
-    </style>
+    }
+
+    .float-animation {
+      animation: float 3s ease-in-out infinite;
+    }
+  </style>
 </head>
+
 <body class="bg-slate-50 text-slate-900 antialiased">
 
   <!-- Navigation -->
@@ -33,7 +43,8 @@
           <a href="#accueil" class="text-slate-700 hover:text-blue-600 transition-colors font-medium">Accueil</a>
           <a href="#apropos" class="text-slate-700 hover:text-blue-600 transition-colors font-medium">À propos</a>
           <a href="#contact" class="text-slate-700 hover:text-blue-600 transition-colors font-medium">Contact</a>
-          <a href="#" class="ml-4 rounded-full bg-gradient-to-r from-blue-600 to-blue-700 px-6 py-2.5 text-white font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300">
+          <a href="#"
+            class="ml-4 rounded-full bg-gradient-to-r from-blue-600 to-blue-700 px-6 py-2.5 text-white font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300">
             Publier une annonce
           </a>
         </div>
@@ -44,56 +55,58 @@
   </nav>
 
   <!-- Hero Section -->
-  <section class="relative overflow-hidden bg-no-repeat bg-cover bg-center" style="background-image: url(images/main\ bg.jpg);">
+  <section class="relative overflow-hidden bg-no-repeat bg-cover bg-center"
+    style="background-image: url(images/main\ bg.jpg);">
     <div class="absolute h-14">
     </div>
-    
+
     <div class="relative max-w-6xl mx-auto px-6 py-24 md:py-32 text-center">
       <div class="inline-block mb-6 px-4 py-2 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold">
         Communauté 50+ du Québec
       </div>
-      
+
       <h1 class="text-5xl md:text-7xl font-black tracking-tight text-slate-200 mb-8 leading-tight ">
-        Le Club des<br/>
+        Le Club des<br />
         <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">50 ans et plus</span>
       </h1>
 
       <p class="max-w-3xl mx-auto text-xl md:text-2xl text-slate-100 text-shadow-lg/30">
         Une gang de Québécois pour jaser, se donner un coup de main et se faire des amis, peu importe ton âge !
       </p>
-      </div>
+    </div>
   </section>
 
   <!-- Features Grid -->
   <section class="py-20 bg-white">
     <div class="max-w-7xl mx-auto px-6">
-      <div class="text-center mb-16">
-        <h2 class="text-4xl md:text-5xl font-bold text-slate-900 mb-4">Pourquoi nous rejoindre ?</h2>
-        <p class="text-xl text-slate-600">Une plateforme complète pour la communauté québécoise</p>
-      </div>
-
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div class="group relative bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-blue-100">
+        <div
+          class="group relative bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-blue-100">
           <div class="text-6xl mb-6 float-animation">👥</div>
           <h3 class="text-2xl font-bold mb-4 text-slate-900">Club 50+</h3>
           <p class="text-slate-600 leading-relaxed">
-            Hé toi ! T’as passé le cap des 50 ? Parfait ! Ramène ton café, ton histoire de jeunesse, pis viens jaser avec notre gang de Québécois qui aiment rire fort et partager leurs aventures.
+            Hé toi ! T’as passé le cap des 50 ? Parfait ! Ramène ton café, ton histoire de jeunesse, pis viens jaser
+            avec notre gang de Québécois qui aiment rire fort et partager leurs aventures.
           </p>
         </div>
 
-        <div class="group relative bg-gradient-to-br from-emerald-50 to-teal-50 rounded-2xl p-8 hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-emerald-100">
+        <div
+          class="group relative bg-gradient-to-br from-emerald-50 to-teal-50 rounded-2xl p-8 hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-emerald-100">
           <div class="text-6xl mb-6 float-animation" style="animation-delay: 0.2s">📝</div>
           <h3 class="text-2xl font-bold mb-4 text-slate-900">Petites Annonces</h3>
           <p class="text-slate-600 leading-relaxed">
-            Balance tes annonces, services ou petites affaires, c’est gratos ! Tout le monde peut s’y mettre, facile comme bonjour. Je regarderai ce que je veux publier.
+            Balance tes annonces, services ou petites affaires, c’est gratos ! Tout le monde peut s’y mettre, facile
+            comme bonjour. Je regarderai ce que je veux publier.
           </p>
         </div>
 
-        <div class="group relative bg-gradient-to-br from-amber-50 to-orange-50 rounded-2xl p-8 hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-amber-100">
+        <div
+          class="group relative bg-gradient-to-br from-amber-50 to-orange-50 rounded-2xl p-8 hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-amber-100">
           <div class="text-6xl mb-6 float-animation" style="animation-delay: 0.4s">💬</div>
           <h3 class="text-2xl font-bold mb-4 text-slate-900">SOS & Entraide</h3>
           <p class="text-slate-600 leading-relaxed">
-            Un petit coin pour parler, rigoler, se soutenir… Pis surtout pour pas se sentir seul comme un vieux chausson perdu !
+            Un petit coin pour parler, rigoler, se soutenir… Pis surtout pour pas se sentir seul comme un vieux chausson
+            perdu !
           </p>
         </div>
       </div>
@@ -123,7 +136,8 @@
             « Nous avions annoncé que les jeunes voudraient quitter Montréal tout en refusant de vivre ailleurs. »
           </blockquote>
           <p class="text-lg text-slate-600 leading-relaxed mb-6">
-            En 2010, nous avions prédit que le Québec découvrirait que le prix du logement pouvait monter indéfiniment. On nous a ri au nez. Aujourd'hui, la réalité nous rattrape.
+            En 2010, nous avions prédit que le Québec découvrirait que le prix du logement pouvait monter indéfiniment.
+            On nous a ri au nez. Aujourd'hui, la réalité nous rattrape.
           </p>
           <a href="#" class="inline-flex items-center gap-2 text-blue-600 font-semibold hover:gap-4 transition-all">
             Lire la suite <span>→</span>
@@ -150,7 +164,8 @@
             « L'environnement est une priorité »
           </blockquote>
           <p class="text-lg text-slate-600 leading-relaxed mb-6">
-            Les mensonges du gouvernement nous sautent aux yeux une fois de plus : autoroute élargie + communiqué de presse vert pâle. Quand les actes contredisent les paroles.
+            Les mensonges du gouvernement nous sautent aux yeux une fois de plus : autoroute élargie + communiqué de
+            presse vert pâle. Quand les actes contredisent les paroles.
           </p>
           <a href="#" class="inline-flex items-center gap-2 text-green-600 font-semibold hover:gap-4 transition-all">
             En savoir plus <span>→</span>
@@ -170,9 +185,12 @@
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <div class="group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-slate-200">
-          <div class="relative h-64 bg-gradient-to-br from-slate-200 to-slate-300 flex items-center justify-center overflow-hidden">
-            <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent bg-no-repeat bg-cover bg-center" style="background-image: url('/images/politique\ clown.jpg');"></div>
+        <div
+          class="group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-slate-200">
+          <div
+            class="relative h-64 bg-gradient-to-br from-slate-200 to-slate-300 flex items-center justify-center overflow-hidden">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent bg-no-repeat bg-cover bg-center"
+              style="background-image: url('/images/politique\ clown.jpg');"></div>
             <div class="relative text-white text-7xl group-hover:scale-110 transition-transform duration-300">▶</div>
           </div>
           <div class="p-6">
@@ -188,15 +206,18 @@
           </div>
         </div>
 
-        <div class="group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-slate-200">
-          <div class="relative h-64 bg-slate-800 flex items-center justify-center overflow-hidden bg-no-repeat bg-cover bg-center" style="background-image: url('/images/paroles\ de\ quebecois.jpeg');">
+        <div
+          class="group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-slate-200">
+          <div
+            class="relative h-64 bg-slate-800 flex items-center justify-center overflow-hidden bg-no-repeat bg-cover bg-center"
+            style="background-image: url('/images/paroles\ de\ quebecois.jpeg');">
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
             <div class="relative text-white text-7xl group-hover:scale-110 transition-transform duration-300">▶</div>
           </div>
           <div class="p-6">
             <h3 class="text-xl font-bold mb-3 text-slate-900">Paroles de Québécois</h3>
             <p class="text-slate-600 leading-relaxed">
-              Des voix authentiques qui méritent d'être entendues. Sans filtre, sans censure.
+              Des gens vrais qui parlent pour vrai. Pas de langue de bois, pas de censure, juste ce qu’on pense !
             </p>
             <div class="mt-4 flex items-center gap-2 text-sm text-slate-500">
               <span>⏱️ 18 min</span>
@@ -215,7 +236,7 @@
       <div class="absolute top-0 left-1/4 w-96 h-96 bg-blue-500 rounded-full blur-3xl"></div>
       <div class="absolute bottom-0 right-1/4 w-96 h-96 bg-indigo-500 rounded-full blur-3xl"></div>
     </div>
-    
+
     <div class="relative max-w-7xl mx-auto px-6">
       <div class="grid md:grid-cols-2 gap-12 items-center">
         <img src="images/image canada.jpg" class="w-90 max-w-96">
@@ -224,13 +245,16 @@
             ⚠️ Prévisions 2006
           </div>
           <h3 class="text-3xl md:text-4xl font-bold mb-6 leading-tight">
-            Mes prévisions pour le Canada<br/>
+            Mes prévisions pour le Canada<br />
             <span class="text-blue-300">24 janvier 2006</span>
           </h3>
           <p class="text-blue-100 text-lg leading-relaxed mb-8 max-w-2xl">
-            Des milliards seront dépensés pour l'armée et oui!!! On s'en fout! Plus de 2 millions de jeunes qui crèvent de faim au Canada... et plus de 2 millions de vieux comme moi... Prévoir la mort de plusieurs militaires canadiens.
+            Des milliards seront dépensés pour l'armée et oui!!! On s'en fout! Plus de 2 millions de jeunes qui crèvent
+            de faim au Canada... et plus de 2 millions de vieux comme moi... Prévoir la mort de plusieurs militaires
+            canadiens.
           </p>
-          <a href="https://www.lematin.ch/story/polemique-sur-la-place-des-francophones-328347399552" class="inline-block rounded-full bg-white px-8 py-4 text-slate-900 font-bold hover:bg-blue-50 hover:shadow-2xl hover:scale-105 transition-all duration-300">
+          <a href="https://www.lematin.ch/story/polemique-sur-la-place-des-francophones-328347399552"
+            class="inline-block rounded-full bg-white px-8 py-4 text-slate-900 font-bold hover:bg-blue-50 hover:shadow-2xl hover:scale-105 transition-all duration-300">
             Découvrez cette arnaque →
           </a>
         </div>
@@ -275,16 +299,20 @@
         <div>
           <h3 class="text-white font-semibold mb-4">Suivez-nous</h3>
           <div class="flex gap-4">
-            <a href="#" class="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-all duration-300 hover:scale-110">
+            <a href="#"
+              class="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-all duration-300 hover:scale-110">
               <span class="text-xl">f</span>
             </a>
-            <a href="#" class="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-all duration-300 hover:scale-110">
+            <a href="#"
+              class="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-all duration-300 hover:scale-110">
               <span class="text-xl">𝕏</span>
             </a>
-            <a href="#" class="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-all duration-300 hover:scale-110">
+            <a href="#"
+              class="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-all duration-300 hover:scale-110">
               <span class="text-xl">✉</span>
             </a>
-            <a href="#" class="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-all duration-300 hover:scale-110">
+            <a href="#"
+              class="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-all duration-300 hover:scale-110">
               <span class="text-xl">📱</span>
             </a>
           </div>
@@ -300,4 +328,5 @@
   </footer>
 
 </body>
+
 </html>
