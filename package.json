@@ -1,7 +1,7 @@
 {
   "name": "club-50plus-quebec",
   "version": "1.0.0",
-  "description": "",
+  "description": "```\r club-50-plus-quebec/\r ├── index.html              # Page d'accueil\r ├── about.html              # Page à propos\r ├── dist\r │   └──outpout.css\r ├── src\r │   └──input.css             \r ├── images/                 # Dossier des images\r │   ├── main bg.jpg\r │   ├── maison en feu.jpg\r │   ├── alerte environement.jpg\r │   ├── politique clown.jpg\r │   ├── paroles de quebecois.jpeg\r │   └── image canada.jpg\r └── README.md\r ```",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
