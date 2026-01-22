@@ -55,3 +55,7 @@ Node.js installé (v20 minimum)
 
 Axel : Wireframe et zoning mobile, création du site et du README
 Constant : Wireframe et zoning desktop, création de la maquette
+
+## Déploiement
+
+``https://club-50plus-quebec.vercel.app``
