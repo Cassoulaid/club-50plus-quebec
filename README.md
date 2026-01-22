@@ -2,13 +2,13 @@
 
 ```
 club-50-plus-quebec/
-├── index.html              # Page d'accueil
-├── about.html              # Page à propos
+├── index.html
+├── about.html  
 ├── dist
 │   └──outpout.css
 ├── src
 │   └──input.css             
-├── images/                 # Dossier des images
+├── images/              
 │   ├── main bg.jpg
 │   ├── maison en feu.jpg
 │   ├── alerte environement.jpg
@@ -55,6 +55,7 @@ Node.js installé (v20 minimum)
 
 Axel : Wireframe et zoning mobile, création du site et du README
 Constant : Wireframe et zoning desktop, création de la maquette
+
 
 ## Déploiement
 
