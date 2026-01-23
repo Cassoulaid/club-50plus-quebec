@@ -53,7 +53,7 @@ Node.js installé (v20 minimum)
 
 ## Répartition du travail
 
-- Axel : Wireframe et zoning mobile, création du site et du README
+- Axel : Wireframe et zoning mobile, création du site et du README et shéma de navigation globale
 - Constant : Wireframe et zoning desktop, création de la maquette
 
 
